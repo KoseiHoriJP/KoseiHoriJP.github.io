@@ -203,6 +203,46 @@
             color: #1769aa;
         }
 
+        .research-progress {
+            margin: 16px 0 20px;
+            padding: 14px;
+            background: #f8fafc;
+            border: 1px solid #dce5ee;
+            border-radius: 8px;
+        }
+
+        .research-progress .progress-heading {
+            margin: 0 0 10px;
+            font-weight: 700;
+            font-size: 0.97rem;
+            color: #17324d;
+        }
+
+        .research-progress .progress-image-link,
+        .research-progress img {
+            display: block;
+            width: 100%;
+        }
+
+        .research-progress img {
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .research-progress figcaption {
+            margin-top: 10px;
+            color: #526575;
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        .research-progress .progress-repository {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.88rem;
+            color: #1769aa;
+        }
+
         a:focus-visible,
         button:focus-visible {
             outline: 3px solid #cc8a24;
@@ -678,6 +718,20 @@
                    data-ja="ラグビーのスクラムを対象に、映像から選手の姿勢や動作の特徴を捉え、機械学習によってスクラムの安定性や力の方向を推定する手法を検討しています。怪我のリスク低減や技術的な弱点の特定に加え、審判による反則判定を客観的に支援することを目指しています。">
                     Exploring machine learning methods for analyzing rugby scrums using posture and movement features from video to estimate scrum stability and force direction. The research aims to help reduce injury risk, identify technical weaknesses, and provide objective support for referees' penalty decisions.
                 </p>
+
+                <figure class="research-progress no-print">
+                    <p class="progress-heading"
+                       data-en="Current Progress · November 2026"
+                       data-ja="現在の研究進捗 · 2026年11月">Current Progress · November 2026</p>
+                    <a class="progress-image-link" href="assets/scrum-research-progress.webp" target="_blank" rel="noopener noreferrer" aria-label="Open full scrum research progress image">
+                        <img src="assets/scrum-research-progress.webp" width="800" height="465" loading="lazy" decoding="async" alt="Early-stage aerial rugby scrum analysis showing annotated player roles and pose keypoint overlays">
+                    </a>
+                    <figcaption data-en="Early-stage annotation and pose-visualisation experiment using aerial scrum footage. Player roles are labelled manually at this stage; work is ongoing towards video-based analysis of scrum formations and movement."
+                                data-ja="上空から撮影したスクラム映像を用いた、初期段階の選手役割アノテーションと姿勢キーポイント可視化の実験です。現段階では選手の役割を手動で付与しており、スクラムの配置や動きを映像から分析する手法を検討中です。">Early-stage annotation and pose-visualisation experiment using aerial scrum footage. Player roles are labelled manually at this stage; work is ongoing towards video-based analysis of scrum formations and movement.</figcaption>
+                    <a class="progress-repository" href="https://github.com/KoseiHoriJP/rugby-scrum-analysis" target="_blank" rel="noopener noreferrer"
+                       data-en="View research repository"
+                       data-ja="研究リポジトリを見る">View research repository</a>
+                </figure>
         
             </article>
             
