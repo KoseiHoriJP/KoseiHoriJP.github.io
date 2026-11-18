@@ -1,5 +1,7 @@
 # Rugby Scrum Video Analysis — Research Showcase
 
+**English** | [日本語](README.ja.md)
+
 **Kosei Hori · Ritsumeikan University · Undergraduate research (October 2026–present)**
 
 > **Status: early-stage research prototype.** This is a public overview for recruiters and collaborators. The main research repository, source code, datasets, and original videos are private.
