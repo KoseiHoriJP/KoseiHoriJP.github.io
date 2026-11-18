@@ -63,4 +63,3 @@ These are **research goals**, not features already demonstrated or validated.
 
 試験的に整理したデータは**3試合・5クリップ・279フレーム・人物検出1,378件・姿勢キーポイント23,426点**です。現時点でスクラムの局面について人手で検証済みのフレームラベルはありません。今後はデータの検証、選手追跡、時系列解析、モデルの評価へと進めます。
 
-**Note:** This showcase intentionally contains no private source code, downloadable datasets, or original match footage.
