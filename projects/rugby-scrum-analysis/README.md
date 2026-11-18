@@ -22,22 +22,8 @@ These are **research goals**, not features already demonstrated or validated.
 
 *Early-stage visualisation using aerial scrum footage. Player-role labels in this image were added manually; pose keypoints are automatically generated estimates. The image does **not** demonstrate validated player tracking, automated role recognition, force measurement, or penalty classification.*
 
-[View the image at full resolution](../../assets/scrum-research-progress.webp) · [View my portfolio](https://koseihorijp.github.io/#projects)
+[View the image at full resolution](../../assets/scrum-research-progress.webp) 
 
-## Work completed so far
-
-The first pilot organises pre-existing pose/detection outputs and preview footage into a dataset that can be reviewed and annotated.
-
-| Pilot material | Current amount |
-| --- | ---: |
-| Match videos represented | 3 matches |
-| Short clips included | 5 clips |
-| Sampled frames | 279 |
-| Automatic person detections | 1,378 |
-| COCO-style pose keypoints recorded | 23,426 |
-| Manually verified frame-level scrum-phase labels | 0 |
-
-These counts describe **collected pilot data**, not model accuracy or validated tracking performance.
 
 ### Current technical approach
 
